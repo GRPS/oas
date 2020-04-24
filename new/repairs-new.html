@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+
+	<script
+	src="https://code.jquery.com/jquery-1.12.4.min.js"
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	crossorigin="anonymous"></script>
+	
+	<style>
+		@font-face {
+			font-family: oldlondon;
+			src: url("assets/css/oldlondon.ttf") /* TTF file for CSS3 browsers */
+		}
+		html, body { height: 100%; padding: 0; margin: 0; }
+		div.box {
+			position: relative;
+			width:45%;
+			height:50%;
+			float: left;
+			overflow: hidden;
+		}
+		div.box:nth-child(odd) {			
+			margin-left: 10%;
+		}
+
+		table {
+			position: relative;
+			border-collapse: collapse;
+			/* width: 90%; */
+			/* margin-left: 20px; */
+		}
+		table td {				
+			height: 25px;
+			font-size: 9px;
+		}
+		table td.line {
+			border-top: 1px solid lightgrey;
+		}
+		.num {
+			position: absolute;
+			width: 40px;
+			height: 20px;
+			font-size: 20px;
+			font-family: 'Times New Roman', Times, serif;
+		}
+		.one {
+			top: 15px;
+			right: 15px;
+		}
+		.two {
+			top: 195px;
+			right: 15px;
+		}	
+		#prt {
+			margin-bottom: 20px;
+		}
+		.sm-text {
+			font-size:8px; 
+			height:15px; 
+			line-height:15px; 
+			float:left;
+		}
+		.tick-box {
+			height:15px; 
+			width: 15px; 
+			border:1px solid lightgrey; 
+			float:left; 
+			margin-left:10px;
+		}
+		.tc {text-align:center;}
+		.fol {font-family:oldlondon;}
+		.f12 {font-size:12px;}
+		.f32 {font-size:32px;}
+	</style>
+
+	<style type="text/css" media="print">
+		#prt {display:none;}
+		.pb{page-break-after: always;}
+	</style>
+
+<script type="text/javascript" src="repairs-new.js"></script>
+
+</head>
+
+<body>
+
+	<div id="prt">
+		Create repairs ranging from <input type="text" id="iStart" value="1"/> to <input type="text" id="iEnd" value="12"/> <button onclick="repair();">Create</button>.
+	</div>
+
+	<div id="1" class="box">
+
+		<table cellpadding="0" cellspacing="0">
+			<tr style="height:35px;">
+				<td colspan="4" class="tc fol f32" style="padding-top:5px;">
+						<span class='num one'></span>
+						<span class='num two'></span>
+						Offord & Sons
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" class="tc f12">WINCHESTER TEL 01962 867772<br />www.offordandsons.co.uk</td>
+			</tr>
+			<tr>
+				<td colspan="4" class="tc f12">Date .......................................</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="vertical-align:top;"><div style="float:left;">THE ARTICLE REPRESENTED<br />BY THIS NUMBER WILL BE<br />DELIVERED ONLY ON PRESENTATION<br />OF THIS RECEIPT</div></td>
+				<td colspan="2"><div style="float:left;">Customers Initials</div><div style="float:right; margin-left:5px; width:80px; height:60px; border: 1px solid #000000;"></div></td>
+			</tr>
+			<tr>
+				<td colspan="4"><hr style="border: 1px dashed lightgrey;" /></td>
+			</tr>
+			<tr>
+				<td colspan="4" class="tc fol f32">Offord & Sons</td>
+			</tr>
+			<tr>
+				<td colspan="4" class="tc f12">Date .......................................</td>
+			</tr>
+			<tr>
+				<td colspan="4" class="line">NAME</td>
+			</tr>
+			<tr>
+				<td colspan="4" class="line">ADDRESS</td>
+			</tr>
+			<tr><td colspan="4"></td></tr>
+
+			<tr>
+				<td colspan="4" class="line"><span class="sm-text">TELEPHONE NUMBER</span></td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" class="line"><span class="sm-text">NUMBER OF ARTICLES</span></td>
+				<td colspan="2" class="line"><span class="sm-text">>COLLECTED BY</span></td>
+			</tr>
+			
+			<tr>
+				<td class="line"><div class="sm-text">CONTACT CONSENT</div><div class="tick-box"></div><td width="25" class="line"></td></td>
+				<td class="line"><div class="sm-text">MARKETING CONSENT</div><div class="tick-box"></div><td width="25" class="line"></td></td>
+			</tr>
+
+			<tr>
+				<td colspan="4" class="line"><span class="sm-text">CHARGES</span></td>
+			</tr>
+			<tr><td colspan="4"></td></tr>
+
+			<tr>
+				<td colspan="4" class="line">DESCRIPTION</td>
+			</tr>
+			<tr><td colspan="4"></td></tr>
+
+		</table>
+		
+	</div>
+
+</body>
