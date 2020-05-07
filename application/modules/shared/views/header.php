@@ -15,7 +15,7 @@
     </div>
     </div>
 </div>
-
+<?php $this->load->view('shared/social2'); ?>
 <!-- Search Modal -->
 <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">

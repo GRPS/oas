@@ -62,7 +62,7 @@ $(document).ready(function(){
     }
 
     $(".updateFacebookButton").on('click', function(){
-        var pages = ["about-us","bespoke-jewellery","old-gold","services","valuations","jewellery-insurance","anniversaries","birthstones","zodiac-stones","diamonds","pearls","contact-us"];       
+        var pages = ["about-us","bespoke-jewellery","old-gold","services","valuations","jewellery-insurance","anniversaries","birthstones","zodiac-stones","diamonds","pearls","contact-us","blog"];
         $.each( pages, function( i, p ){
             url = "http://developers.facebook.com/tools/debug/og/object?scrape=true&q=http://www.offordandsons.co.uk/" + p;
             a = window.open(url, 'url_'+i);

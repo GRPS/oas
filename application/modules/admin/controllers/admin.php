@@ -34,7 +34,7 @@ class Admin extends Admin_Controller {
     
     public function update_facebook() {
         $url = "http://www.offordandsons.co.uk/";
-        $pages = array("about-us","bespoke-jewellery","old-gold","services","valuations","jewellery-insurance","anniversaries","birthstones","zodiac-stones","diamonds","pearls","contact-us");
+        $pages = array("about-us","bespoke-jewellery","old-gold","services","valuations","jewellery-insurance","anniversaries","birthstones","zodiac-stones","diamonds","pearls","contact-us","blog");
         $urlcurl = "http://developers.facebook.com/tools/debug/og/object?scrape=true&q=";
             
         $ch = curl_init();   

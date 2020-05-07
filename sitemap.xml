@@ -558,7 +558,11 @@
   <loc>http://www.offordandsons.co.uk/pearls</loc>
   <changefreq>monthly</changefreq>
 </url>
-<url>
+  <url>
+    <loc>http://www.offordandsons.co.uk/blog</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
   <loc>http://www.offordandsons.co.uk/contact-us</loc>
   <changefreq>monthly</changefreq>
 </url>

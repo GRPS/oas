@@ -80,6 +80,7 @@ $route['birthstones'] = 'page/index/birthstones';
 $route['zodiac-stones'] = 'page/index/zodiac-stones';
 $route['diamonds'] = 'page/index/diamonds';
 $route['pearls'] = 'page/index/pearls';
+$route['blog'] = 'page/index/blog';
 $route['contact-us'] = 'page/index/contactus';
 $route['terms-and-conditions'] = 'page/index/terms-and-conditions';
 $route['terms-of-sale'] = 'page/index/terms-of-sale';

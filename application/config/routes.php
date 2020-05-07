@@ -89,6 +89,7 @@ $route['diamonds'] = 'page/index/diamonds';
 $route['pearls'] = 'page/index/pearls';
 $route['special-offers'] = 'page/index/specialoffers';
 $route['contact-us'] = 'page/index/contactus';
+$route['blog'] = 'page/index/blog';
 $route['terms-and-conditions'] = 'page/index/terms-and-conditions';
 $route['terms-of-sale'] = 'page/index/terms-of-sale';
 $route['linked-sites'] = 'page/index/linked-sites';

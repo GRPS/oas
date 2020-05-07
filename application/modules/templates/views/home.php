@@ -61,7 +61,7 @@
 
         <div class="container">
             
-            <div class="row mt">
+            <div class="row">
                 <?php foreach($panels as $i => $p): ?>
                 <div class="<?=$p->col?> mb">
                     <?php if($p->use_scroller == "No"):?>

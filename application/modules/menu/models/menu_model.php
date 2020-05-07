@@ -138,6 +138,7 @@ class Menu_Model extends CI_Model {
         $menu[] = array('name' => 'Services', 'icon' => 'fa-wrench', 'link' => 'services', 'sub' => null);
         $menu[] = array('name' => 'Valuations', 'icon' => 'fa-money', 'link' => 'valuations', 'sub' => null); 
         $menu[] = array('name' => 'Information', 'icon' => 'fa-info', 'link' => '', 'sub' => $info);
+        $menu[] = array('name' => 'Blog', 'icon' => 'fa-phone', 'link' => 'blog', 'sub' => null);
         $menu[] = array('name' => 'Contact Us', 'icon' => 'fa-phone', 'link' => 'contact-us', 'sub' => null);
         
         return $menu;

@@ -30,8 +30,7 @@
                 <a href="<?=site_url('linked-sites')?>" title="Read about our linked sites.">Linked Sites</a>
             </div>
             <div class="col-md-12 text-center pt pb">
-                <p>Copyright &copy; 2015 Offord & Sons All rights reserved.</p>
-                <p>Designed and created by Graham Simmons 2015.</p>
+                <p><?=$this->config->item("copyright")?></p>
             </div>
         </div>
     </footer>

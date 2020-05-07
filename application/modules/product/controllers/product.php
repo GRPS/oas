@@ -109,7 +109,7 @@ class Product extends Public_Controller {
             } else {
                 $data['meta']['image'] = $this->config->item("domainPICTURES").str_replace("t.", ".", $products[0]->thumbnail);
             }
-            
+
 //            PrintExt($data);
             $this->load->module('templates')->product_tpl($data);           
 

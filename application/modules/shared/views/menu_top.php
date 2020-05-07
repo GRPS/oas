@@ -23,6 +23,7 @@
                     <li><a href="<?=base_url('product/cufflinks')?>">Cufflinks</a></li>
                     <li><a href="<?=base_url('product/earrings')?>">Earrings</a></li>
                     <li><a href="<?=base_url('product/giftware')?>">Giftware</a></li>
+                    <li><a href="<?=base_url('product/masonic')?>">Masonic</a></li>
                     <li><a href="<?=base_url('product/necklaces')?>">Necklaces</a></li>
                     <li><a href="<?=base_url('product/nicole barr')?>">Nicole Barr</a></li>
                     <li><a href="<?=base_url('product/pendants')?>">Pendants</a></li>
@@ -36,7 +37,7 @@
                     <li><a target="_new" href="https://issuu.com/gecko_marketing/docs/gekc096_fg01_web_lo">Fiorelli Gold</a></li>
                     <li><a target="_new" href="https://issuu.com/gecko_marketing/docs/gekc082_f17_web?e=4882196/15167429">Fiorelli Jewellery</a></li>
                     <!--<li><a href="#">Nicole Barr</a></li>-->
-                    <li><a target="_new" href="http://www.michelherbelin.co.uk/AFF48">Michel Herbelin</a></li>
+<!--                    <li><a target="_new" href="http://www.michelherbelin.co.uk/AFF48">Michel Herbelin</a></li>-->
                 </ul>
             <li style="padding:10px; text-indent:20px; ">Bespoke Jewellery</li>
                 <ul class="sub">
@@ -65,6 +66,7 @@
                 </ul> 
            
             <!--<li><a href="<?=base_url('blog')?>">Blog</a></li>-->
+            <li><a href="<?=base_url('blog')?>">Blog</a></li>
             <li><a href="<?=base_url('contact-us')?>">Contact Us</a></li>
         </ul>       
     </div>
@@ -97,12 +99,13 @@
                                     <li><a href="<?=base_url('product/cufflinks')?>">Cufflinks</a></li>
                                     <li><a href="<?=base_url('product/earrings')?>">Earrings</a></li>
                                     <li><a href="<?=base_url('product/giftware')?>">Giftware</a></li>
+                                    <li><a href="<?=base_url('product/masonic')?>">Masonic</a></li>
                                     <li><a href="<?=base_url('product/necklaces')?>">Necklaces</a></li>
-                                    <li><a href="<?=base_url('product/nicole barr')?>">Nicole Barr</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="multi-column-dropdown">
+                                    <li><a href="<?=base_url('product/nicole barr')?>">Nicole Barr</a></li>
                                     <li><a href="<?=base_url('product/pendants')?>">Pendants</a></li>
                                     <!--<li><a href="<?=base_url('product/pewter')?>">Pewter</a></li>-->
                                     <li><a href="<?=base_url('product/rings')?>">Rings</a></li>
@@ -117,7 +120,7 @@
                                 <ul class="multi-column-dropdown">
                                     <li><a target="_new" href="https://issuu.com/gecko_marketing/docs/gekc096_fg01_web_lo">Fiorelli Gold</a></li>
                                     <li><a target="_new" href="https://issuu.com/gecko_marketing/docs/gekc082_f17_web?e=4882196/15167429">Fiorelli Jewellery</a></li>
-                                    <li><a target="_new" href="http://www.michelherbelin.co.uk/AFF48">Michel Herbelin</a></li>
+<!--                                    <li><a target="_new" href="http://www.michelherbelin.co.uk/AFF48">Michel Herbelin</a></li>-->
                                     <!--<li><a href="#">Nicole Barr</a></li>-->
                                 </ul>
                             </div>
@@ -156,6 +159,7 @@
                     </ul>
                 </li>
                 <!--<li><a href="<?=base_url('blog')?>">Blog</a></li>-->
+                <li><a href="<?=base_url('blog')?>">Blog</a></li>
                 <li><a href="<?=base_url('contact-us')?>">Contact Us</a></li>
             </ul>
         </div>
