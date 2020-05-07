@@ -5,7 +5,7 @@
     }
 </style>
 
-<div class="container" style="text-align: right; margin: 5px auto;">
+<div id="social" class="container" style="text-align: right; margin: 5px auto;">
     <span class="fb-like" data-href="<?="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></span>
     <a href="https://www.facebook.com/offordandsonsjewellers?ref=hl" target="_blank" class="btn btn-xs" style="color:#ffffff; background-color:#3b5998">
         <i class="fa fa-facebook" style="margin:3px auto !important; "></i>

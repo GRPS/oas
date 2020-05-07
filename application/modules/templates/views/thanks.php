@@ -51,7 +51,11 @@
     </script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
     <!-- End Cookie Consent plugin -->
-
+<style>
+    #social {
+        display:none;
+    }
+</style>
     </head>
 
     <body>
@@ -74,12 +78,11 @@
             <div class="row">
                 <div class="col-xs-12">
                     <h1>Payment Complete</h1>
-                    <p>Thank you for your payment, you will receive a confirmation of your payment from paypal once it has been processed.  We will be in touch with delivery details soon.</p>
+                    <p>Thank you for your order.</p>
+                    <p>We will confirm your payment and then update you with delivery details.</p>
                 </div>
             </div>
         </div>
-
-        <?php $this->load->view('footer'); ?>
 
         <?php echo Modules::run('storage')?>
 
